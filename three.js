@@ -27,7 +27,6 @@ spin.addEventListener("click" , function() {
         const x = rectleft + a;
         const y =rectheight;
         console.log(x);
-        
         console.log(y);
         //座標上の要素を取得
         const z = document.elementFromPoint(x, y);
