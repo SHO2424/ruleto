@@ -23,8 +23,6 @@ spin.addEventListener("click" , function() {
         const rectheight=arrow.getBoundingClientRect().bottom;
         const a =(rectright - rectleft) / 2;
         console.log(a);
-
-        console.log(rectwidth);
         winner.style.opacity="1"
         const x = rectleft + a;
         const y =rectheight;
