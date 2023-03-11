@@ -6,7 +6,6 @@ const three=document.querySelector(".three");
 const four=document.querySelector(".four");
 const winner =document.querySelector(".winner");
 let number=Math.ceil(Math.random() * 1500) + 3500;
-
 spin.addEventListener("click" , function() {
     console.log(number);
     container.style.transform=`rotate(${number}deg)`;
