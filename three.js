@@ -52,7 +52,7 @@ spin.addEventListener("click" , function() {
               winner.style.color="pink"
                     }
          if(z === three) {
-            const th= inputpink.value;
+            const th= inputlightgreen.value;
             if(th) {
                winner.textContent=inputlightgreen.value + "!";  
                     }else {
