@@ -54,7 +54,7 @@ spin.addEventListener("click" , function() {
               winner.style.color="pink"
                     }
          if(z === three) {
-            const th= inputpink.value;
+            const th= inputlightgreen.value;
             if(th) {
                winner.textContent=inputlightgreen.value + "!";  
                     }else {
@@ -64,7 +64,7 @@ spin.addEventListener("click" , function() {
             winner.style.color="lightgreen"
          }
          if(z === four) {
-            const f= inputpink.value;
+            const f= inputred.value;
             if(f) {
                winner.textContent=inputred.value + "!";  
                     }else {
