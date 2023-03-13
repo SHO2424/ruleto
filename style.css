@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+input {
+  font-size: 17px;
+}
+
 button {
   padding: 2px;
 }
